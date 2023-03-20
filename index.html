@@ -7,25 +7,77 @@
 	<title>A Tribute to AKA</title>
 	<style>
 		body {
-			background-color: #f2f2f2;
+			background-color: #fff0ff;
 			font-family: Arial, sans-serif;
 		}
 		h1 {
-			text-align: left;
+			text-align: center;
+			font-size: 3em;
 			color: #333;
+			margin-top: 40px;
 		}
 		p {
-			margin: 20px;
-			font-size: 18px;
-			line-height: 1.5;
+			margin: 20px 0;
+			font-size: 1.2em;
+			line-height: 1.6;
 			color: #666;
-			text-align: left;
+			text-align: justify;
+			text-justify: inter-word;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 20px;
+			padding-right: 20px;
 		}
 		img {
 			display: block;
 			max-width: 100%;
-			text-align: left;
-			/* removed auto, because picture not aligning to the left */
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		hr {
+			border: none;
+			border-top: 3px solid #333;
+			width: 70%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		h2 {
+			font-size: 1.8em;
+			color: #333;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		.video-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-bottom: 50px;
+		}
+		.video-container a {
+			margin: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-decoration: none;
+			color: #333;
+		}
+		.video-container a:hover {
+			color: #cc0000;
+		}
+		.video-container a img {
+			width: 100%;
+			max-width: 300px;
+			border: 3px solid #333;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			transition: all 0.3s ease;
+		}
+		.video-container a img:hover {
+			transform: scale(1.1);
+			border-color: #cc0000;
 		}
 	</style>
 </head>
